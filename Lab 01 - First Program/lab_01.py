@@ -22,3 +22,6 @@ Hi
 "Git commit -m "My message"----------------Commit your work.Use a descriptive message or the other people in the" \
                           "class will be irritated with you." \
 "git push------------Push commit up to the serve git status
+
+
+jajaxd
