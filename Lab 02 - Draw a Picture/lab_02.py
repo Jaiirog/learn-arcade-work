@@ -2,6 +2,7 @@
 This is a sample program to show how to draw using the Python programming
 language and the Arcade library.
 """
+
 """
 # Import the "arcade" library
 import arcade
@@ -98,15 +99,6 @@ arcade.run()
 
 
 
-
-
-
-
-
-
-
-
-
 import arcade
 
 arcade.open_window(800,600,"Dibujo_1")
@@ -143,9 +135,10 @@ arcade.draw_arc_outline(740, 530, 20, 10,
 
 texture=arcade.load_texture("coche_azul.png")
 texture2=arcade.load_texture("coche_azul_alreves.png")
-arcade.draw_texture_rectangle(170, 180,texture.width - 1400, texture.height-787, texture, 0)
+arcade.draw_texture_rectangle(170, 180,texture.width -  1400, texture.height-787, texture, 0)
 arcade.draw_texture_rectangle(630, 70,texture2.width - 1400, texture2.height-787, texture2, 0)
 
 
 arcade.finish_render()
 arcade.run()
+
